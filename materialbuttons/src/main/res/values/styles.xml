@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="MaterialButton" parent="@android:style/Widget.Button">
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:textColor">@color/mb_btn_text_color_white</item>
+        <item name="android:textSize">@dimen/text_size_button</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:minHeight">@dimen/button_min_height</item>
+        <item name="android:paddingRight">@dimen/button_side_padding</item>
+        <item name="android:paddingLeft">@dimen/button_side_padding</item>
+        <item name="android:layout_marginLeft">@dimen/button_horizontal_margin</item>
+        <item name="android:layout_marginRight">@dimen/button_horizontal_margin</item>
+        <item name="android:minWidth">@dimen/button_min_width</item>
+    </style>
+
+    <style name="MaterialButton.Indigo">
+        <item name="android:background">@drawable/btn_indigo</item>
+    </style>
+    <style name="MaterialButton.Teal">
+        <item name="android:background">@drawable/btn_teal</item>
+    </style>
+    <style name="MaterialButton.Red">
+        <item name="android:background">@drawable/btn_red</item>
+    </style>
+    <style name="MaterialButton.Blue">
+        <item name="android:background">@drawable/btn_blue</item>
+    </style>
+    <style name="MaterialButton.Pink">
+        <item name="android:background">@drawable/btn_pink</item>
+    </style>
+    <style name="MaterialButton.Purple">
+        <item name="android:background">@drawable/btn_purple</item>
+    </style>
+    <style name="MaterialButton.DeepPurple">
+        <item name="android:background">@drawable/btn_deeppurple</item>
+    </style>
+    <style name="MaterialButton.GreyBlue">
+        <item name="android:background">@drawable/btn_greyblue</item>
+    </style>
+    <style name="MaterialButton.Green">
+        <item name="android:background">@drawable/btn_green</item>
+    </style>
+    <style name="MaterialButton.Brown">
+        <item name="android:background">@drawable/btn_brown</item>
+    </style>
+    <style name="MaterialButton.Cyan">
+        <item name="android:background">@drawable/btn_cyan</item>
+    </style>
+    <style name="MaterialButton.DeepOrange">
+        <item name="android:background">@drawable/btn_deeporange</item>
+    </style>
+
+    <style name="MaterialButton.Flat" parent="Base.TextAppearance.AppCompat.Button">
+        <item name="android:background">@drawable/mb_btn_flat_selector</item>
+        <item name="android:minWidth">@dimen/btn_flat_min_width</item>
+        <item name="android:minHeight">@dimen/btn_flat_min_height</item>
+        <item name="android:textColor">@color/mb_flat_btn_text_color</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingLeft">@dimen/btn_flat_padding</item>
+        <item name="android:paddingRight">@dimen/btn_flat_padding</item>
+        <item name="android:layout_marginLeft">@dimen/btn_flat_margin</item>
+        <item name="android:layout_marginRight">@dimen/btn_flat_margin</item>
+    </style>
+</resources>

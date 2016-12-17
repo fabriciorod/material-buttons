@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="MaterialButton" parent="@android:style/Widget.Button">
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:textColor">@color/mb_btn_text_color_white</item>
+        <item name="android:textSize">@dimen/text_size_button</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:minHeight">@dimen/button_min_height</item>
+        <item name="android:paddingRight">@dimen/button_side_padding</item>
+        <item name="android:paddingLeft">@dimen/button_side_padding</item>
+        <item name="android:layout_marginLeft">@dimen/button_horizontal_margin</item>
+        <item name="android:layout_marginRight">@dimen/button_horizontal_margin</item>
+        <item name="android:layout_marginBottom">@dimen/button_bottom_margin</item>
+        <item name="android:layout_marginTop">@dimen/button_top_margin</item>
+        <item name="android:minWidth">@dimen/button_min_width</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+</resources>

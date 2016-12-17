@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_size_button">14sp</dimen>
+    <dimen name="button_min_height">48dp</dimen>
+    <dimen name="button_elevation">2dp</dimen>
+    <dimen name="button_side_padding">16dp</dimen>
+    <dimen name="button_min_width">64dp</dimen>
+
+    <!--flat button size-->
+    <dimen name="btn_flat_corner_radius">1dp</dimen>
+    <dimen name="btn_flat_min_width">88dp</dimen>
+    <dimen name="btn_flat_min_height">36dp</dimen>
+    <dimen name="btn_flat_padding">8dp</dimen>
+    <dimen name="btn_flat_margin">4dp</dimen>
+    <dimen name="button_horizontal_margin">8dp</dimen>
+    <dimen name="button_top_margin">8dp</dimen>
+    <dimen name="button_bottom_margin">8dp</dimen>
+</resources>
