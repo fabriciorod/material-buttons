@@ -19,7 +19,7 @@ Only use the style attribute with any of the next values.
 * MaterialButton.Cyan
 * MaterialButton.DeepOrange
 
-As you already know, the elevation attribute and ripple effect only works on SDK > 21, so, the buttons do not have this effects on pre-lollipop. 
+As you already know, the elevation attribute and ripple effect only works on SDK >= 21, so, the buttons do not have this effects on pre-lollipop. 
 
 ## Installation
 
