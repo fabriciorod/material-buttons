@@ -38,7 +38,7 @@ dependencies {
    compile 'com.github.fabriciorod:material-buttons:1.0'
 }
 ```
-
+## License
 ```
 Copyright 2016 Fabricio Rodriguez
 
