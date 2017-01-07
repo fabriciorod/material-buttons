@@ -20,12 +20,12 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Indigo"
-            style="@style/MaterialButton.Indigo"/>
+            android:theme="@style/MaterialButton.Indigo"/>
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Deep Orange"
-            style="@style/MaterialButton.DeepOrange"/>
+            android:theme="@style/MaterialButton.DeepOrange"/>
 
     </LinearLayout>
     <LinearLayout
@@ -35,12 +35,12 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Teal"
-            style="@style/MaterialButton.Teal"/>
+            android:theme="@style/MaterialButton.Teal"/>
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Deep Purple"
-            style="@style/MaterialButton.DeepPurple"/>
+            android:theme="@style/MaterialButton.DeepPurple"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
@@ -49,13 +49,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Blue Grey"
-            style="@style/MaterialButton.GreyBlue"
+            android:theme="@style/MaterialButton.GreyBlue"
             android:id="@+id/button"/>
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Purple"
-            style="@style/MaterialButton.Purple"/>
+            android:theme="@style/MaterialButton.Purple"/>
 
     </LinearLayout>
 
@@ -67,17 +67,17 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Green"
-            style="@style/MaterialButton.Green"/>
+            android:theme="@style/MaterialButton.Green"/>
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Blue"
-            style="@style/MaterialButton.Blue"/>
+            android:theme="@style/MaterialButton.Blue"/>
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Red"
-            style="@style/MaterialButton.Red"/>
+            android:theme="@style/MaterialButton.Red"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
@@ -87,11 +87,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Pink"
-            style="@style/MaterialButton.Pink"/>
+            android:theme="@style/MaterialButton.Pink"/>
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Cyan"
-            style="@style/MaterialButton.Cyan"/>
+            android:theme="@style/MaterialButton.Cyan"/>
     </LinearLayout>
 </LinearLayout>
