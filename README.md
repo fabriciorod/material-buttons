@@ -4,7 +4,7 @@ Styles for the Android Button.
 ![alt tag](https://raw.githubusercontent.com/fabriciorod/Material-Buttons/master/screenshot.png)
 
 ## How to use
-Only use the style attribute with any of the next values.
+Only use the theme attribute with any of the next values.
 
 * MaterialButton.Indigo
 * MaterialButton.Teal
@@ -35,7 +35,7 @@ allprojects {
 
 ```gradle
 dependencies {
-   compile 'com.github.fabriciorod:material-buttons:1.0'
+   compile 'com.github.fabriciorod:material-buttons:1.1'
 }
 ```
 ## License
