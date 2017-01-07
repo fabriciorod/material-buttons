@@ -35,7 +35,7 @@ allprojects {
 
 ```gradle
 dependencies {
-   compile 'com.github.fabriciorod:material-buttons:1.1'
+   compile 'com.github.fabriciorod:material-buttons:1.2'
 }
 ```
 ## License
