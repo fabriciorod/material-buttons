@@ -1,5 +1,5 @@
 # Material-Buttons
-Styles for Android Button.
+Styles for the Android Button.
 
 ![alt tag](https://raw.githubusercontent.com/fabriciorod/Material-Buttons/master/screenshot.png)
 
@@ -19,8 +19,26 @@ Only use the style attribute with any of the next values.
 * MaterialButton.Cyan
 * MaterialButton.DeepOrange
 
-As you already know the elevation attribute does not work on pre-lollipop.
+As you already know, the elevation attribute and ripple effect only works on SDK >= 21, so, the buttons do not have this effects on pre-lollipop. 
 
+## Installation
+
+* Add jitpack to your root gradle build file:
+```gradle
+allprojects {
+    repositories {
+        maven { url "https://jitpack.io" }
+    }
+}
+```
+* Add the library to your dependencies:
+
+```gradle
+dependencies {
+   compile 'com.github.fabriciorod:material-buttons:1.0'
+}
+```
+## License
 ```
 Copyright 2016 Fabricio Rodriguez
 
